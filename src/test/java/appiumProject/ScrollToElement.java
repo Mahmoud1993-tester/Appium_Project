@@ -18,11 +18,21 @@ public class ScrollToElement extends BaseTest {
     public void LongPressGesture() throws MalformedURLException, InterruptedException {
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
+		
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+		
+		/* RemoteWebElement scrollView = (RemoteWebElement) wait.until(presenceOfElementLocated(AppiumBy.accessibilityId("WebView")));
+
+		driver.executeScript("gesture: scrollElementIntoView", Map.of("scrollableView", scrollView.getId(),
+		    "strategy", "accessibility id",
+		    "selector", "WebdriverIO logo",
+		    "percentage", 50,
+		    "direction", "up",
+		    "maxCount", 3)); */
+		
 		driver.findElement(AppiumBy.accessibilityId("WebView")).click();
 		
-		// Wait 
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 		// Focus and Assertions 
 		WebElement inputField = driver.findElement(By.xpath("//android.widget.EditText[@resource-id=\"i_am_a_textbox\"]"));
@@ -47,5 +57,5 @@ public class ScrollToElement extends BaseTest {
         Thread.sleep(2000);
         
        
-    }
+	}
 }
