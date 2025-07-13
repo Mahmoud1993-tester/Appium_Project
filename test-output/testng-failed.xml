@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumProject.RunWebApplication">
+      <class name="appiumProject.LongPress">
         <methods>
+          <include name="LongPressGesture"/>
           <include name="ConfigureAppium"/>
           <include name="TearDown"/>
-          <include name="WifiSettingsName"/>
         </methods>
-      </class> <!-- appiumProject.RunWebApplication -->
+      </class> <!-- appiumProject.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

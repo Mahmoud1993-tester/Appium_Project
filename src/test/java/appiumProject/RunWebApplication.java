@@ -1,7 +1,7 @@
 package appiumProject;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -18,6 +18,8 @@ public class RunWebApplication extends BaseTest {
         driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\'3. Preference dependencies\']")).click();
         driver.findElement(By.id("android:id/checkbox")).click();
         driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
+        String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
+        Assert.assertEquals(alertTitle, "WiFi settings");
         driver.findElement(By.id("android:id/edit")).sendKeys("Hunter Wifi");
         driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
         
