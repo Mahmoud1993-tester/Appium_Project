@@ -14,7 +14,7 @@ import java.util.Map;
 public class SwipeTest extends BaseTest {
 
 	@Test 
-    public void LongPressGesture() throws MalformedURLException, InterruptedException {
+    public void SwipeImages() throws MalformedURLException, InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();

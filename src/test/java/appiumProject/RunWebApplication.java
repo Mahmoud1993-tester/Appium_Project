@@ -10,7 +10,7 @@ import io.appium.java_client.AppiumBy;
 public class RunWebApplication extends BaseTest {
 
 	@Test 
-    public void WifiSettingsName() throws MalformedURLException {
+    public void WifiSettingsTest() throws MalformedURLException {
 		
         // 1. Actual automation
         // Xpath, id, acciabilityId, className, androidUIAutomator 

@@ -15,7 +15,7 @@ import java.time.Duration;
 public class ScrollToElement extends BaseTest {
 
 	@Test 
-    public void LongPressGesture() throws MalformedURLException, InterruptedException {
+    public void ScrollElementTest() throws MalformedURLException, InterruptedException {
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 		

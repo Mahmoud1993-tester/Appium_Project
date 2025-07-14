@@ -15,7 +15,7 @@ import java.util.Map;
 public class DragAndDrop extends BaseTest {
 
 	@Test 
-    public void LongPressGesture() throws MalformedURLException, InterruptedException {
+    public void DragAndDropTest() throws MalformedURLException, InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
