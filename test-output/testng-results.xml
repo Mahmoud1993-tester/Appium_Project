@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-13T17:54:53 EEST" name="Default suite" finished-at="2025-07-13T17:55:11 EEST" duration-ms="17373">
+  <suite started-at="2025-07-14T11:30:50 EEST" name="Default suite" finished-at="2025-07-14T11:31:10 EEST" duration-ms="20469">
     <groups>
     </groups>
-    <test started-at="2025-07-13T17:54:53 EEST" name="Default test" finished-at="2025-07-13T17:55:11 EEST" duration-ms="17373">
-      <class name="appiumProject.SwipeTest">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:appiumProject.SwipeTest@7d8704ef]" started-at="2025-07-13T17:54:53 EEST" name="ConfigureAppium" finished-at="2025-07-13T17:55:04 EEST" duration-ms="10413" status="PASS">
+    <test started-at="2025-07-14T11:30:50 EEST" name="Default test" finished-at="2025-07-14T11:31:10 EEST" duration-ms="20469">
+      <class name="appiumProject.DragAndDrop">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:appiumProject.DragAndDrop@7d8704ef]" started-at="2025-07-14T11:30:50 EEST" name="ConfigureAppium" finished-at="2025-07-14T11:31:04 EEST" duration-ms="14538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:appiumProject.SwipeTest@7d8704ef]" started-at="2025-07-13T17:55:04 EEST" name="LongPressGesture" finished-at="2025-07-13T17:55:10 EEST" duration-ms="5886" status="PASS">
+        <test-method signature="LongPressGesture()[pri:0, instance:appiumProject.DragAndDrop@7d8704ef]" started-at="2025-07-14T11:31:04 EEST" name="LongPressGesture" finished-at="2025-07-14T11:31:09 EEST" duration-ms="5061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:appiumProject.SwipeTest@7d8704ef]" started-at="2025-07-13T17:55:10 EEST" name="TearDown" finished-at="2025-07-13T17:55:11 EEST" duration-ms="1000" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:appiumProject.DragAndDrop@7d8704ef]" started-at="2025-07-14T11:31:09 EEST" name="TearDown" finished-at="2025-07-14T11:31:10 EEST" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- appiumProject.SwipeTest -->
+      </class> <!-- appiumProject.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
