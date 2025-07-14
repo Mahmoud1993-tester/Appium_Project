@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T12:21:25 EEST" name="Default suite" finished-at="2025-07-14T12:21:47 EEST" duration-ms="22520">
+  <suite started-at="2025-07-14T12:43:24 EEST" name="Default suite" finished-at="2025-07-14T12:43:45 EEST" duration-ms="21053">
     <groups>
     </groups>
-    <test started-at="2025-07-14T12:21:25 EEST" name="Default test" finished-at="2025-07-14T12:21:47 EEST" duration-ms="22520">
-      <class name="appiumProject.App_ActionBar">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:appiumProject.App_ActionBar@66d18979]" started-at="2025-07-14T12:21:25 EEST" name="ConfigureAppium" finished-at="2025-07-14T12:21:38 EEST" duration-ms="12819" status="PASS">
+    <test started-at="2025-07-14T12:43:24 EEST" name="Default test" finished-at="2025-07-14T12:43:45 EEST" duration-ms="21053">
+      <class name="appiumProject.RotationLandScapeTest">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:appiumProject.RotationLandScapeTest@66d18979]" started-at="2025-07-14T12:43:24 EEST" name="ConfigureAppium" finished-at="2025-07-14T12:43:35 EEST" duration-ms="11069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:appiumProject.App_ActionBar@66d18979]" started-at="2025-07-14T12:21:38 EEST" name="LongPressGesture" finished-at="2025-07-14T12:21:46 EEST" duration-ms="8340" status="PASS">
+        <test-method signature="WifiSettingsTest()[pri:0, instance:appiumProject.RotationLandScapeTest@66d18979]" started-at="2025-07-14T12:43:35 EEST" name="WifiSettingsTest" finished-at="2025-07-14T12:43:44 EEST" duration-ms="8298" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:appiumProject.App_ActionBar@66d18979]" started-at="2025-07-14T12:21:46 EEST" name="TearDown" finished-at="2025-07-14T12:21:47 EEST" duration-ms="1272" status="PASS">
+        </test-method> <!-- WifiSettingsTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:appiumProject.RotationLandScapeTest@66d18979]" started-at="2025-07-14T12:43:44 EEST" name="TearDown" finished-at="2025-07-14T12:43:45 EEST" duration-ms="1611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- appiumProject.App_ActionBar -->
+      </class> <!-- appiumProject.RotationLandScapeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
